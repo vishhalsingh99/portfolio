@@ -16,6 +16,7 @@ export const Contact = () => {
         alert("Message sent successfully!");
         reset(); // Clears form fields
       }
+       
   
     } catch (error) {
       console.error("Error submitting the form:", error);
